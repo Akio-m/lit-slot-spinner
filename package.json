@@ -1,0 +1,18 @@
+{
+  "name": "lit-slot-spinner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite ."
+  },
+  "author": "akichika aharen",
+  "license": "MIT",
+  "dependencies": {
+    "lit": "^2.7.4",
+    "vite": "^4.3.5"
+  },
+  "customElements": "custom-element.js"
+}
