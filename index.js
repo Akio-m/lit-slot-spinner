@@ -22,7 +22,11 @@ class MyElement extends LitElement {
 
   render() {
     return html`
-      <div class="spinner"></div>
+      <div>
+        <slot>
+          <div class="spinner"></div>
+        </slot>
+      </div>
     `;
   }
 }
